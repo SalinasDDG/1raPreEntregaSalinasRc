@@ -1,0 +1,70 @@
+/*navbar*/
+img.logoImg{
+    width: 150px;
+    border-radius: 15px;
+    border: 1px solid black;
+  }
+  
+  div.subtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  div.container-fluid{
+    background-color: rgb(182, 108, 108);
+    height: 70px;
+  }
+  
+  #navbarScroll{
+    background-color: rgb(182, 108, 108);
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .btnHome{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+
+  }
+
+  #navbarScrollingDropdown{
+    position: absolute;
+    padding-left: 20px;
+  }
+
+  /*lista de productos*/
+
+#containerCard{
+  display: flex;
+
+  align-items: center;
+  margin: 15px;
+  
+}
+
+#botonLynk{
+  text-decoration: none;
+  color: white;
+}
+
+
+  
+  /*detalle del producto*/
+  div.sumadorStock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+  }
+  
+  div.sumadorStock h4{
+    padding: 0 50px 0 50px;
+
+  }
+  div.botonCarrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;}
