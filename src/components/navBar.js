@@ -7,16 +7,17 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import logoTienda from './media/logoTienda.jpg';
 import { NavLink, Link } from 'react-router-dom';
 import './style.css';
-
+import CartWidget from "./cartWidget"
 
 
 function NavBarPrincipal() {
+
     return (
     <div>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
           <Link to="/home"> 
-          <img class="logoImg" src={logoTienda} alt="Logo Imagen" />
+          <img className="logoImg" src={logoTienda} alt="Logo Imagen" />
           </Link>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -27,9 +28,9 @@ function NavBarPrincipal() {
             >
               <NavLink className="btnHome" to="/home" >Home</NavLink>
               <NavLink className="btnHome"  to="/carrito" >
-                Mis compras (Car)
+                Mis compras
               </NavLink>
-              
+              <CartWidget />
               <NavDropdown title="Nuestros productos" id="navbarScrollingDropdown">
               <NavDropdown.Item>
                  <NavLink className="btnHome"  to={`/categoria/electrica`}>

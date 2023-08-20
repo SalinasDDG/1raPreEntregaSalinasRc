@@ -75,3 +75,6 @@ export const getProductsByCategory = (categoriaId) => {
         setTimeout(() => {resolve(productos.filter(prod => prod.categoria === categoriaId))}, 500)
     })
 }
+
+
+    

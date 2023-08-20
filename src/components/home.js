@@ -2,7 +2,7 @@
 function ProductoHome(){
     return(
     <div>
-        <div class="subtitulo">
+        <div className="subtitulo">
         <h4>¡Tienda mayorista! ¡Lo mejor para tus clientes siempre!</h4>
       </div>
     </div>
